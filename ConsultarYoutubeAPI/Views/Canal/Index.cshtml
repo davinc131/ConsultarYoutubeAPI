@@ -1,0 +1,77 @@
+﻿@*
+    Index CANAL
+*@
+@{
+}
+@model Dommain.Entidades.CanalHost.ConsultaCanal
+
+@{
+    ViewData["Title"] = "Consultar Canal";
+}
+
+<h1>Consultar Canal</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-controller="Canal" asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="TermoConsulta" class="form-control" id="search" />
+                <span asp-validation-for="TermoConsulta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input class="btn btn-primary" value="Pesquisar" type="submit" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row margin-rodape">
+    @if (Model != null)
+    {
+        @if (Model.CanalRoot != null)
+        {
+            @foreach (var item in Model.CanalRoot.items)
+            {
+
+                <div class="col-md-4 div-cartao-previa margin-esquerda">
+                    <img src="@item.snippet.thumbnails.high.url" width="320" />
+                    <label>@item.snippet.title</label>
+                    <label>@item.snippet.description</label>
+                    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#modalDetalhes" _titulo="@item.snippet.title" _descricao="@item.snippet.description" _publicacao="@item.snippet.publishedAt" id="@item.id.channelId" onclick="AbrirModal(id)">
+                        Detalhes
+                    </button>
+                </div>
+                <br />
+            }
+        }
+    }
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalDetalhes" tabindex="-1" aria-labelledby="modalDetalhes" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="h5exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h6>Descrição </h6> 
+                <p id="modalDescricao"></p>
+                <h6>Data Publicação </h6> 
+                <p id="modalPublicacao"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="~/js/canalAbrirModal.js" defer></script>
+}

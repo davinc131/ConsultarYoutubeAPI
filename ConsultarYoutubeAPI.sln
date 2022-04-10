@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultarYoutubeAPI", "ConsultarYoutubeAPI\ConsultarYoutubeAPI.csproj", "{297163DB-75B9-4E88-B66E-938069A8968F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dommain", "Dommain\Dommain.csproj", "{4DBA0547-40E6-44FE-A38E-E9E83FB17E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{F784615A-21CD-48A3-9C0D-09E57FD5661B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{C697DC7A-C755-4826-BEA3-ACFBAB297640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{297163DB-75B9-4E88-B66E-938069A8968F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297163DB-75B9-4E88-B66E-938069A8968F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297163DB-75B9-4E88-B66E-938069A8968F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297163DB-75B9-4E88-B66E-938069A8968F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBA0547-40E6-44FE-A38E-E9E83FB17E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBA0547-40E6-44FE-A38E-E9E83FB17E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBA0547-40E6-44FE-A38E-E9E83FB17E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBA0547-40E6-44FE-A38E-E9E83FB17E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F784615A-21CD-48A3-9C0D-09E57FD5661B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F784615A-21CD-48A3-9C0D-09E57FD5661B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F784615A-21CD-48A3-9C0D-09E57FD5661B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F784615A-21CD-48A3-9C0D-09E57FD5661B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C697DC7A-C755-4826-BEA3-ACFBAB297640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C697DC7A-C755-4826-BEA3-ACFBAB297640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C697DC7A-C755-4826-BEA3-ACFBAB297640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C697DC7A-C755-4826-BEA3-ACFBAB297640}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3017C367-F183-4295-A305-4D1D4E8FA200}
+	EndGlobalSection
+EndGlobal
