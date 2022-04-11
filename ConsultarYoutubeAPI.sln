@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultarYoutubeAPI", "ConsultarYoutubeAPI\ConsultarYoutubeAPI.csproj", "{297163DB-75B9-4E88-B66E-938069A8968F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsultarYoutubeAPI", "ConsultarYoutubeAPI\ConsultarYoutubeAPI.csproj", "{297163DB-75B9-4E88-B66E-938069A8968F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dommain", "Dommain\Dommain.csproj", "{4DBA0547-40E6-44FE-A38E-E9E83FB17E48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dommain", "Dommain\Dommain.csproj", "{4DBA0547-40E6-44FE-A38E-E9E83FB17E48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{F784615A-21CD-48A3-9C0D-09E57FD5661B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{F784615A-21CD-48A3-9C0D-09E57FD5661B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{C697DC7A-C755-4826-BEA3-ACFBAB297640}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{C697DC7A-C755-4826-BEA3-ACFBAB297640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultarYoutubeAPITeste", "ConsultarYoutubeAPITeste\ConsultarYoutubeAPITeste.csproj", "{C28D75E8-D3F2-4918-89F7-DB67A418CD13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C697DC7A-C755-4826-BEA3-ACFBAB297640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C697DC7A-C755-4826-BEA3-ACFBAB297640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C697DC7A-C755-4826-BEA3-ACFBAB297640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28D75E8-D3F2-4918-89F7-DB67A418CD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28D75E8-D3F2-4918-89F7-DB67A418CD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28D75E8-D3F2-4918-89F7-DB67A418CD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28D75E8-D3F2-4918-89F7-DB67A418CD13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

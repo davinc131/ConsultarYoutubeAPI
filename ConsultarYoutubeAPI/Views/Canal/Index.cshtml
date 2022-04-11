@@ -26,7 +26,7 @@
     </div>
 </div>
 
-<div class="row margin-rodape">
+<div class="row margin-rodape content-center">
     @if (Model != null)
     {
         @if (Model.CanalRoot != null)
@@ -36,7 +36,7 @@
 
                 <div class="col-md-4 div-cartao-previa margin-esquerda">
                     <img src="@item.snippet.thumbnails.high.url" width="320" />
-                    <label>@item.snippet.title</label>
+                    <h5>@item.snippet.title</h5>
                     <label>@item.snippet.description</label>
                     <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#modalDetalhes" _titulo="@item.snippet.title" _descricao="@item.snippet.description" _publicacao="@item.snippet.publishedAt" id="@item.id.channelId" onclick="AbrirModal(id)">
                         Detalhes

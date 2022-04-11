@@ -81,17 +81,19 @@ body {
 }
 
 .margin-esquerda {
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .content-center {
     margin-top: 2%;
     padding: 2%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
 }
 
 .container-dois-botoes {
